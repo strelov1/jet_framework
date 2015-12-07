@@ -1,8 +1,10 @@
 build_settings:
   ignore:
     - ".idea"
+    - ".gitignore"
 test:
   technical_debt:
   php_mess_detector:
   php_code_sniffer:
+    standard: "PSR2"
   php_loc:
