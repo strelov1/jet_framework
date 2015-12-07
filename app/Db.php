@@ -4,7 +4,6 @@ namespace App;
 
 use PDO;
 
-
 class Db
 {
     protected $db_link;

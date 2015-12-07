@@ -2,7 +2,6 @@
 
 namespace App;
 
-
 class Request
 {
     public static function controller()

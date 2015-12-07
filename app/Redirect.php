@@ -2,7 +2,6 @@
 
 namespace App;
 
-
 class Redirect
 {
     public static function url($location)
