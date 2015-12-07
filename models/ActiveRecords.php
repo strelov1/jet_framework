@@ -64,5 +64,3 @@ abstract class ActiveRecords
         return $this;
     }
 }
-
-
