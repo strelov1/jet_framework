@@ -59,26 +59,9 @@ abstract class ActiveRecords
         }
     }
 
-    public function update($objekt = [], $id_col)
-    {
-        $sets = [];
-        foreach ($objekt as $key => $value) {
-            if ($value == null) {
-                $sets[] = "$key=NULL";
-            } else {
-                $value = $value;
-                $sets[] = "$key='$value'";
-            }
-        }
-
-        $sets_s = implode(",", $sets);
-
-        $sql = 'UPDATE ' . $this->tableName() . ' SET ' . $sets_s . ' WHERE `id`= \'' . (int)$id_col . '\'';
-        return $this->db_link->execSql($sql);
-    }
-
     public function save()
     {
         return $this;
     }
 }
+

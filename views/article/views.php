@@ -1,8 +1,13 @@
 <?php
 
 ?>
-<h2><?= $model->title; ?></h2>
-<p><?= $model->content; ?></p>
+
+<h2>
+    <?= $model->title; ?>
+</h2>
+<p>
+    <?= $model->content; ?>
+</p>
 
 <br>
 
