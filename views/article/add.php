@@ -1,3 +1,5 @@
+<?php
+?>
 <h2>Добавить статью</h2>
 <form action="" method="post">
     <input type="text" name="title"><br><br>

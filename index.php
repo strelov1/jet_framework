@@ -6,7 +6,6 @@ use App\Request;
 use Controllers\SiteController;
 use Controllers\ArticleController;
 
-
 switch (Request::controller()) {
     case 'Site':
         $controller = new SiteController;
