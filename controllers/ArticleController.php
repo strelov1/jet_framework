@@ -43,5 +43,4 @@ class ArticleController
         }
         echo $this->view->render('add');
     }
-
 }
