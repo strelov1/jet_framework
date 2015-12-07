@@ -1,4 +1,4 @@
-<?php foreach ($model as $value): ?>
+<?php foreach ($model as $value) : ?>
 
     <h2>
         <?= $value['title']; ?>
