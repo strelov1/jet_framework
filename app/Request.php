@@ -11,7 +11,7 @@ class Request
         if ($config['PrettyUrl'] == true) {
             return ucfirst(Request::chpuQuery()[0]);
         } else {
-            return ucfirst($_GET['c']);
+            return isset($_GET['c']) ? ucfirst($_GET['c']) : false;
         }
     }
 
@@ -21,7 +21,7 @@ class Request
         if ($config['PrettyUrl']) {
             return ucfirst(Request::chpuQuery()[1]);
         } else {
-            return ucfirst($_GET['a']);
+            return isset($_GET['a']) ? ucfirst($_GET['a']) : false;
         }
     }
 

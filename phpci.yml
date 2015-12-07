@@ -4,5 +4,3 @@ build_settings:
 test:
   technical_debt:
   php_mess_detector:
-  php_loc:
-  php_code_sniffer:
